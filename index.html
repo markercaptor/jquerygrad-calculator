@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv = "Content-Type" content = "text/html; charset=UTF-8" />
+<script language="javascript" type="text/javascript" src = "script.js"></script>
+<link rel = "stylesheet" type = "text/css" href = "style.css" />
+<title>Grade Calculator for COSC 3351</title>
+</head>
+
+<body>
+<div class = "content">
+	<h1>Grade Calculator for COSC 3351</h1>
+	<p>With this simple web page we will be able to assess the grade you are going to get. For actual grades you need to check <a target = "_blank" href="http://bb9.tamucc.edu">Blackboard</a>.</p>
+	<h2>Please Provide Grade Information</h2>
+	
+	<table width = "100%" border = "0">
+		<tr>
+			<td width = "14%">Assignment 1:</td>
+			<td width = "86%"><input name = "Grade" type = "text" /></td>
+		</tr>
+		<tr>
+			<td width = "14%">Assignment 2:</td>
+			<td width = "86%"><input name = "Grade" type = "text" /></td>
+		</tr>
+		<tr>
+			<td width = "14%">Assignment 3:</td>
+			<td width = "86%"><input name = "Grade" type = "text" /></td>
+		</tr>
+		<tr>
+			<td width = "14%">Assignment 4:</td>
+			<td width = "86%"><input name = "Grade" type = "text" /></td>
+		</tr>
+		<tr>
+			<td width = "14%">Assignment 5:</td>
+			<td width = "86%"><input name = "Grade" type = "text" /></td>
+		</tr>
+		<tr>
+			<td width = "14%">Assignment 6:</td>
+			<td width = "86%"><input name = "Grade" type = "text" /></td>
+		</tr>
+		<tr>
+			<td width = "14%">Project:</td>
+			<td width = "86%"><input name = "Grade" type = "text" /></td>
+		</tr>
+		<tr>
+			<td width = "14%">Midterm:</td>
+			<td width = "86%"><input name = "Grade" type = "text" /></td>
+		</tr>
+		<tr>
+			<td width = "14%">Final:</td>
+			<td width = "86%"><input name = "Grade" type = "text" /></td>
+		</tr>
+		<tr>
+			<td><input name="btn_Submit" type="submit" value="Check" onclick="calculateGrade()" /></td>
+		</tr>
+	</table>
+	
+	<p id="CurrentGrade">Grade:</p>
+	<p id="LetterGrade">Letter Grade:</p>
+</div>
+
+</body>
+</html>
